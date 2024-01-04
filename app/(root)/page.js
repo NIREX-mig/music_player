@@ -1,3 +1,5 @@
+import Header from "@/components/Header";
+import SongCard from "@/components/SongCard";
 
 
 export default function Home() {
@@ -8,7 +10,10 @@ export default function Home() {
         <div className="bg-[#101010] h-screen  rounded-lg my-2 mx-1">hello</div>
       </div>
 
-      <div className="w-full h-screen rounded-lg my-3 mx-2 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-2">helle2</div>
+      <div className="w-full h-screen rounded-lg my-3 mx-2 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <Header/>
+      <SongCard/>
+      </div>
     </>
   );
 }
