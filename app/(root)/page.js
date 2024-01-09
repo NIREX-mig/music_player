@@ -1,19 +1,41 @@
-import Header from "@/components/Header";
-import SongCard from "@/components/SongCard";
+"use client";
 
+import MusicPlayer from "@/components/MusicPlayer/MusicPlayer";
+import SongCard from "@/components/SongCard";
+import { useState } from "react";
 
 export default function Home() {
+  const [musicPlayerOpen, setMusicPlayerOpen] = useState(false);
+
   return (
-    <>
-      <div className=" flex flex-col w-[30%]  h-screen rounded-lg my-3">
-        <div className="bg-[#101010] h-[25%] rounded-lg mx-1 p-2">hello</div>
-        <div className="bg-[#101010] h-screen  rounded-lg my-2 mx-1">hello</div>
+    <section className="h-[87%] overflow-y-scroll  ">
+      <h4 className="font-bold text-3xl px-5 py-3">Big Hits!</h4>
+      <button
+        onClick={() => {
+          setMusicPlayerOpen(!musicPlayerOpen);
+        }}
+      >
+        {" "}
+        open
+      </button>
+      <div className=" flex justify-center p-5 md:justify-start flex-wrap gap-7 ">
+        <SongCard />
+        <SongCard />
+        <SongCard />
+        <SongCard />
+        <SongCard />
+        <SongCard />
+        <SongCard />
+        <SongCard />
       </div>
 
-      <div className="w-full h-screen rounded-lg my-3 mx-2 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <Header/>
-      <SongCard/>
+      <div
+        className={`w-full md:w-[79vw] z-[500] fixed bottom-0 duration-500  ${
+          !musicPlayerOpen && " translate-y-20"
+        } `}
+      >
+        <MusicPlayer />
       </div>
-    </>
+    </section>
   );
 }

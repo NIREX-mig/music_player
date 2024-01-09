@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const SongCard = () => {
   return (
-    <article className="flex flex-col w-[191px] hover:bg-[#141414]  p-4 bg-[#080808] h-[270px] rounded-xl">
+    <article className="flex flex-col w-[180px] hover:bg-[#141414]  p-4 bg-[#080808] h-[250px] rounded-xl">
       <div className="" >
         <Image
           alt="cover_image"
