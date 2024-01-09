@@ -2,11 +2,18 @@
 
 import { useRef } from 'react'
 
-const Player = () => {
-    const ref = useRef();
+const Player = ({url, isPlay}) => {
+  const ref = useRef();
+
+  if(isPlay){
+    ref.current.play();
+  }
+  else{
+    
+  }
   return (
     <audio
-    src=""
+    src={url}
     ref={ref}
     />
   )

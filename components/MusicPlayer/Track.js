@@ -10,9 +10,9 @@ const Track = () => {
         height={700}
         className="rounded-full border border-black spin "
       />
-      <div className="px-3 md:hidden lg:inline-block">
-        <p className="text-sm font-medium " >najar lag jayegi</p>
-        <p className="text-xs font-light ">najar lag jayegi</p>
+      <div className="w-32 px-3 md:hidden lg:inline-block">
+        <p className="truncate text-white text-sm font-medium " >najar lag jayegi</p>
+        <p className="truncate text-white text-xs font-light ">najar lag jayegi</p>
       </div>
     </div>
   );
