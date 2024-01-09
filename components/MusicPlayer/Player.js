@@ -1,22 +1,22 @@
-'use client';
+"use client";
 
-import { useRef } from 'react'
+import { useEffect, useRef } from "react";
 
-const Player = ({url, isPlay}) => {
+const Player = ({ url, isPlay, volume }) => {
   const ref = useRef();
-
-  if(isPlay){
-    ref.current.play();
+  if (ref.current) {
+    if (isPlay) {
+      ref.current.play();
+    } else {
+      ref.current.pause();
+    }
   }
-  else{
-    
-  }
-  return (
-    <audio
-    src={url}
-    ref={ref}
-    />
-  )
-}
 
-export default Player
+  useEffect(() => {
+    ref.current.volume = volume;
+  },[volume]);
+
+  return <audio src={url} ref={ref} />;
+};
+
+export default Player;

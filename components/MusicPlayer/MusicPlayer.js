@@ -13,7 +13,8 @@ const MusicPlayer = () => {
     "https://cdns-preview-2.dzcdn.net/stream/c-26a34d0188414a0f8ae592b202b75728-1.mp3";
 
   const [musicPlay, setMusicPlay] = useState(false);
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(0.3);
+  const [volume, setVolume] = useState(0.3);
   const [isPlay, setIsPlay] = useState(false);
 
   const handelClick = () => {
@@ -22,19 +23,20 @@ const MusicPlayer = () => {
   };
 
   const handleVolumeChange = (e) => {
-    const newValue = parseInt(e.target.value);
-    setValue(newValue);
+    const newValue = parseFloat(e.target.value);
+    setValue(volume);
+    setVolume(newValue);
   };
 
   return (
     <section className="flex justify-around  w-[99vw] sm:w-[79vw] 2xl:w-[80vw] h-20 rounded-tr-lg rounded-tl-lg bottom-4 backdrop-blur-md bg-black/35 p-1">
       <Track />
       <div className="w-[30rem] xl:w-[37rem] ">
-        <Controler musicPlay={musicPlay} handelClick={handelClick} />
+        <Controler musicPlay={musicPlay} handelClick={handelClick}  />
         <SeekBar />
-        <Player url={url} isPlay={isPlay} />
+        <Player url={url} isPlay={isPlay} volume={volume} />
       </div>
-      <VolumeBar value={value} handleVolumeChange={handleVolumeChange} />
+      <VolumeBar value={value} volume={volume} handleVolumeChange={handleVolumeChange} />
     </section>
   );
 };
