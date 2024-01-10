@@ -1,14 +1,15 @@
 import Image from "next/image";
 
-const Track = () => {
+const Track = ({isPlay}) => {
   return (
     <div className="hidden lg:flex md:hidden justify-center items-center">
       <Image
         alt="trackImg"
         src="/songImg.jpg"
         width={70}
-        height={700}
-        className="rounded-full border border-black spin "
+        height={70}
+        priority={true}
+        className={`rounded-full border border-black ${isPlay && "spin"}`}
       />
       <div className="w-32 px-3 md:hidden lg:inline-block">
         <p className="truncate text-white text-sm font-medium " >najar lag jayegi</p>

@@ -31,7 +31,7 @@ export default function Home() {
 
       <div
         className={`w-full md:w-[79vw] z-[500] fixed bottom-0 duration-500  ${
-          !musicPlayerOpen && " translate-y-20"
+          !musicPlayerOpen ? " translate-y-20" : ""
         } `}
       >
         <MusicPlayer />
