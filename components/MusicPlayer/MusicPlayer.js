@@ -10,7 +10,7 @@ import Track from "./Track";
 
 const MusicPlayer = () => {
   const url =
-    "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/04/10/e7/0410e7e9-e1e9-7af0-2121-df591de8f556/mzaf_16020800116271435292.plus.aac.ep.m4a";
+    "https://cdns-preview-2.dzcdn.net/stream/c-26a34d0188414a0f8ae592b202b75728-1.mp3";
 
   const [musicPlay, setMusicPlay] = useState(false);
   const [seekTime, setSeekTime] = useState(0);
@@ -18,7 +18,6 @@ const MusicPlayer = () => {
   const [volume, setVolume] = useState(0.3);
   const [isPlay, setIsPlay] = useState(false); // properties come form sclice
   const [duration, setDuration] = useState(null);
-  const [currentTime, setCurrentTime] = useState(0);
 
   const handelClick = () => {
     setMusicPlay(!musicPlay);
@@ -47,7 +46,6 @@ const MusicPlayer = () => {
 
         <SeekBar 
           value={seekValue}
-          currentTime={currentTime}
           onChange={onChange} 
           duration={duration} 
         />
@@ -58,7 +56,7 @@ const MusicPlayer = () => {
           volume={volume}
           setDuration={setDuration}
           seekTime={seekTime}
-          setCurrentTime={setCurrentTime}
+          onTimeUpdate={(e) => {setSeekValue(e.target.currentTime)}}
         />
       </div>
       <VolumeBar

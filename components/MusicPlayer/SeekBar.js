@@ -1,7 +1,7 @@
 
 
 
-const SeekBar = ({value, onChange, duration, currentTime}) => {
+const SeekBar = ({value, onChange, duration}) => {
 
   const getTime = (time) => `${Math.floor(time / 60)}:${(`0${Math.floor(time % 60)}`).slice(-2)}`;
 
@@ -10,7 +10,7 @@ const SeekBar = ({value, onChange, duration, currentTime}) => {
   return (
     <div className="flex flex-col w-[28rem] xl:w-[35rem] mx-auto ">
       <div className="flex justify-between pb-1">
-        <p className="text-xs">{getTime(currentTime)}</p>
+        <p className="text-xs">{getTime(value)}</p>
         {duration && <p className="text-xs">{getTime(duration)}</p>}
       </div>
       <input 

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-const Player = ({ url, isPlay, volume, setDuration, seekTime , setCurrentTime}) => {
+const Player = ({ url, isPlay, volume, setDuration, seekTime ,onTimeUpdate}) => {
   const ref = useRef();
   if (ref.current) {
     if (isPlay) {
@@ -11,11 +11,6 @@ const Player = ({ url, isPlay, volume, setDuration, seekTime , setCurrentTime}) 
       ref.current.pause();
     }
   }
-
-  // useEffect(()=>{
-  //     setCurrentTime(ref.current.currentTime);
-  // },[isPlay])
-
 
   useEffect(() => {
     ref.current.volume = volume;
@@ -35,6 +30,7 @@ const Player = ({ url, isPlay, volume, setDuration, seekTime , setCurrentTime}) 
     <audio 
       src={url} 
       ref={ref}
+      onTimeUpdate={onTimeUpdate}
     />
    )
 };
