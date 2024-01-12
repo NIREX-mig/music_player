@@ -2,9 +2,18 @@
 
 import MusicPlayer from "@/components/MusicPlayer/MusicPlayer";
 import SongCard from "@/components/SongCard";
-import { useState } from "react";
+// import { useAppDispatch, useAppSelector } from "@/lib/hooks";
+// import { useGetSongsBySearchQuery } from "@/redux/shazam/shazam";
+import {useState } from "react";
+// import { useSelector } from "react-redux";
+
+
+
 
 export default function Home() {
+  // const { data, isFetching, error } = useGetSongsBySearchQuery("najar lag jayegi");
+  // console.log(data)
+
   const [musicPlayerOpen, setMusicPlayerOpen] = useState(false);
 
   return (
@@ -18,7 +27,7 @@ export default function Home() {
         {" "}
         open
       </button>
-      <div className=" flex justify-center p-5 md:justify-start flex-wrap gap-7 ">
+      <div className="xl:grid-cols-5 md:grid md:grid-cols-3 flex flex-wrap justify-center p-5 md:justify-start gap-7 ">
         <SongCard />
         <SongCard />
         <SongCard />

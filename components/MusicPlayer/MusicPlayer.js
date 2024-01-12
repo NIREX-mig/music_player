@@ -10,7 +10,7 @@ import Track from "./Track";
 
 const MusicPlayer = () => {
   const url =
-    "https://cdns-preview-2.dzcdn.net/stream/c-26a34d0188414a0f8ae592b202b75728-1.mp3";
+    "https://cdns-preview-9.dzcdn.net/stream/c-977e86e13cd9cb19794f48ad6c1086ee-2.mp3";
 
   const [musicPlay, setMusicPlay] = useState(false);
   const [seekTime, setSeekTime] = useState(0);

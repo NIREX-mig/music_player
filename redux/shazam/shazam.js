@@ -1,37 +1,17 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
+"use client";
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const apiUri = process.env.NEXT_PUBLIC_SHAZAM_CORE_API;
 
-export const fetchData = createAsyncThunk("shazam/fetchData", async () => {
-  const response = await axios.get(apiUri);
-  return response.data;
+export const shazamApi = createApi({
+  reducerPath: 'shazamApi',
+  baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_SHAZAM_CORE_API ,
+    prepareHeaders: (headers) => {
+      headers.set('X-RapidAPI-Key', process.env.NEXT_PUBLIC_RAPIDAPI_KEY );
+      return headers;
+    },
+   }),
+  endpoints: (builder) => ({
+    getSongsBySearch: builder.query({ query: (searchTerm) => `/search?term=${searchTerm}&locale=en-US` }),
+  }),
 });
-
-const initialState = {
-  data: [],
-  status: "idle",
-  error: null,
-};
-
-const shazamSlice = createSlice({
-  name: "shazam",
-  initialState,
-  reducers: {},
-  extraReducers : (builder) => {
-    builder.addCase(fetchData.pending, (state) => {
-        state.status = 'loading';
-    })
-    .addCase(fetchData.fulfilled, (state,action) => {
-        state.status = 'succeeded';
-        state.data = action.payload;
-    })
-    .addCase(fetchData.rejected, (state , action ) => {
-        state.status = 'faide';
-        state.error = action.error.message;
-    })
-  },
-});
-
-
-export default shazamSlice.reducer;
+export const { useGetSongsBySearchQuery } = shazamApi;
