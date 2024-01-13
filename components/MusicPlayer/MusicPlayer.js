@@ -10,7 +10,7 @@ import Track from "./Track";
 
 const MusicPlayer = () => {
   const url =
-    "https://cdns-preview-9.dzcdn.net/stream/c-977e86e13cd9cb19794f48ad6c1086ee-2.mp3";
+    "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/04/10/e7/0410e7e9-e1e9-7af0-2121-df591de8f556/mzaf_16020800116271435292.plus.aac.ep.m4a";
 
   const [musicPlay, setMusicPlay] = useState(false);
   const [seekTime, setSeekTime] = useState(0);

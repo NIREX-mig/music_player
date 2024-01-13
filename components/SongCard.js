@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const SongCard = () => {
+const SongCard = ({title, subtitle}) => {
   return (
     <article className="flex flex-col w-[180px] hover:bg-[#141414]  p-4 bg-[#080808] h-[250px] rounded-xl">
       <div className="">
@@ -13,11 +13,8 @@ const SongCard = () => {
         />
       </div>
       <div className="mt-3">
-        <h2 className="text-sm text-gray-300 font-semibold">Daily Mix 1</h2>
-        <p className="text-xs font-extralight mt-2 ">
-          {" "}
-          yo yo honey shing and diven and more{" "}
-        </p>
+        <h2 className=" text-sm text-white font-semibold">{title}</h2>
+        <p className="text-xs text-white font-extralight mt-2 ">{subtitle}</p>
       </div>
     </article>
   );

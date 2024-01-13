@@ -4,6 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   searchValue : "",
+  isTyping : true,
 };
 
 export const searchSlice = createSlice({
@@ -12,10 +13,13 @@ export const searchSlice = createSlice({
   reducers: {
     setSearchValue : (state, action) =>{
         state.searchValue = action.payload;
+    },
+    setTyping : (state,action) =>{
+      state.isTyping = action.payload;
     }
   },
 });
 
-export const {setSearchValue } = searchSlice.actions
+export const {setSearchValue, setTyping } = searchSlice.actions
 
 export default searchSlice.reducer;

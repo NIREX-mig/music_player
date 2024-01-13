@@ -2,17 +2,12 @@
 
 import MusicPlayer from "@/components/MusicPlayer/MusicPlayer";
 import SongCard from "@/components/SongCard";
-// import { useAppDispatch, useAppSelector } from "@/lib/hooks";
-// import { useGetSongsBySearchQuery } from "@/redux/shazam/shazam";
 import {useState } from "react";
-// import { useSelector } from "react-redux";
 
 
 
 
 export default function Home() {
-  // const { data, isFetching, error } = useGetSongsBySearchQuery("najar lag jayegi");
-  // console.log(data)
 
   const [musicPlayerOpen, setMusicPlayerOpen] = useState(false);
 

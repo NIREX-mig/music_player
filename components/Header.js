@@ -1,20 +1,11 @@
 "use client";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
 import SearchBar from "./SearchBar";
 
-
-
 const Header = () => {
-  const [search, setSearch] = useState("");
-  
-  const onChange = (e) =>{
-    const value = e.target.value;
-    setSearch(value)
-  }
   const pathname = usePathname();
-  
+
   return (
     <section className=" flex justify-between w-full  sticky top-0 backdrop-blur-sm ">
       <div className="flex">
@@ -36,7 +27,7 @@ const Header = () => {
           />
         </div>
         {pathname === "/search" && (
-          <SearchBar search={search} onChange={onChange}/>
+          <SearchBar/>
         )}
       </div>
 
