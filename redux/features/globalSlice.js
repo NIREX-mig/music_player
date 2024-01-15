@@ -5,10 +5,11 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   searchValue : "",
   isTyping : true,
+  isMenuOpen : false,
 };
 
-export const searchSlice = createSlice({
-  name: "search",
+export const globalSlice = createSlice({
+  name: "global",
   initialState,
   reducers: {
     setSearchValue : (state, action) =>{
@@ -16,10 +17,13 @@ export const searchSlice = createSlice({
     },
     setTyping : (state,action) =>{
       state.isTyping = action.payload;
+    },
+    setIsMenuOpen : (state, action) =>{
+      state.isMenuOpen = action.payload;
     }
   },
 });
 
-export const {setSearchValue, setTyping } = searchSlice.actions
+export const {setSearchValue, setTyping, setIsMenuOpen } = globalSlice.actions
 
-export default searchSlice.reducer;
+export default globalSlice.reducer;

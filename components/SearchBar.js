@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { setSearchValue, setTyping } from "@/redux/features/searchSlice";
+import { setSearchValue } from "@/redux/features/globalSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useCallback, useState, useEffect } from "react";
 

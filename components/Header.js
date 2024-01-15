@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import SearchBar from "./SearchBar";
@@ -7,7 +8,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <section className=" flex justify-between w-full  sticky top-0 backdrop-blur-sm ">
+    <section className="hidden xl:flex lg:flex md:flex sm:flex justify-between w-full  sticky top-0 backdrop-blur-sm ">
       <div className="flex">
         <div className="flex py-5 pl-5">
           <Image
