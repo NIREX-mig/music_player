@@ -12,17 +12,9 @@ export default function Home() {
 
   return (
     <section className=" h-[87%] overflow-y-scroll  ">
-      <button
-        onClick={() => {
-          setMusicPlayerOpen(!musicPlayerOpen);
-        }}
-      >
-        {" "}
-        open
-      </button>
       <div className="p-5">
-        <h4 className="font-bold text-2xl">Best of Honey shingh</h4>
-        <div className="xl:grid-cols-5 md:grid md:grid-cols-3 flex flex-col flex-wrap justify-center p-5 md:justify-start gap-7 ">
+        <h4 className="font-bold text-2xl">Punjabi Old Songs </h4>
+        <div className="xl:grid-cols-5 md:grid-cols-3 flex flex-wrap justify-center p-5 md:justify-start gap-3 ">
           {data?.tracks.hits?.map((song, index) => {
             return <SongCard key={song.track.key} song={song} index={index} />;
           })}

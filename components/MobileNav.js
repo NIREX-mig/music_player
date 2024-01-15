@@ -30,27 +30,27 @@ const MobileNav = () => {
         />
       </nav>
       {isMenuOpen && (
-        <div className="fixed flex flex-col justify-between top-14  right-0 z-50 w-56 h-[565px] bg-white/15 rounded-lg p-6 text-black ">
+        <div className="fixed flex flex-col justify-between top-14  right-0 z-50 w-56 h-[565px] bg-black/85 rounded-lg p-6 text-white ">
           <div>
-            <Link href="/" className="flex p-2 hover:bg-white hover:rounded-lg">
+            <Link href="/" className="group flex p-2 hover:bg-white hover:rounded-lg">
               <Image
                 src="/assets/home.svg"
                 width={25}
                 height={25}
                 alt="search_svg"
-                className="invert"
+                className="group-hover:invert"
               />
-              <h2 className="text-xl font-semibold pl-2">home</h2>
+              <h2 className="text-xl font-semibold group-hover:text-black pl-2">home</h2>
             </Link>
-            <Link href="/search" className=" flex p-2 hover:bg-white hover:rounded-lg">
+            <Link href="/search" className="group flex p-2 hover:bg-white hover:rounded-lg">
               <Image
                 src="/assets/search.svg"
                 width={25}
                 height={25}
                 alt="search_svg"
-                className="invert"
+                className="group-hover:invert"
               />
-              <h2 className="text-xl font-semibold pl-2">search</h2>
+              <h2 className="text-xl font-semibold group-hover:text-black pl-2">search</h2>
             </Link>
           </div>
 
