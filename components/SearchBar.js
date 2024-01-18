@@ -1,13 +1,12 @@
 "use client";
 import Image from "next/image";
 import { setSearchValue } from "@/redux/features/globalSlice";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useCallback, useState, useEffect } from "react";
 
 const SearchBar = () => {
   const dispatch = useDispatch();
   const [search, setSearch] = useState("");
-  // const {searchValue} = useSelector((state) => state.search);
 
   function debounce(func, delay) {
     let timeoutId;

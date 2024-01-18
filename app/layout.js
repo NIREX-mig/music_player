@@ -9,7 +9,7 @@ export const metadata = {
   title: "spotify-clone",
   description: "spotify clone using next js",
   icons: {
-    icon: "",
+    icon: "./favicon.ico",
   },
 };
 

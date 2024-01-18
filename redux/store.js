@@ -7,7 +7,8 @@ import { shazamApi } from "@/redux/shazam/shazam"
 const rootReducer = combineReducers({
   [shazamApi.reducerPath]: shazamApi.reducer,
   player: playerReducer,
-  global : globalReducer
+  global : globalReducer,
+  
 },);
 
 const store = configureStore({

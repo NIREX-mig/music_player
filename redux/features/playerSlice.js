@@ -4,7 +4,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   isPlay : false,
+  isMusicPlayerOpen : false,
+  activeSong : {},
   currentSong : [],
+  currentIndex : 0,
   
 };
 
@@ -12,18 +15,26 @@ export const playerSlice = createSlice({
   name: "player",
   initialState,
   reducers: {
-    increment: (state) => {
-      state.value += 1;
+    setIsPlay : (state,action ) =>{
+      state.isPlay = action.payload;
+      state.isMusicPlayerOpen = true;
     },
-    decrement: (state) => {
-      state.value -= 1;
+    setCurrentSong : (state, action ) =>{
+      state.currentSong = action.payload;
     },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload;
+    setActiveSong : (state, action ) =>{
+      state.activeSong = action.payload;
     },
+    nextSong : () =>{
+
+    },
+    
+    previousSong : () =>{
+
+    }
   },
 });
 
-export const { increment, decrement, incrementByAmount } = playerSlice.actions
+export const { setIsPlay,setCurrentSong,setActiveSong, nextSong, previousSong } = playerSlice.actions
 
 export default playerSlice.reducer;

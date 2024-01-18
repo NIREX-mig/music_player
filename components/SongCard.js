@@ -1,10 +1,21 @@
+import { setActiveSong } from "@/redux/features/playerSlice";
 import Image from "next/image";
 import { FaPause, FaPlay } from "react-icons/fa";
+import { useDispatch } from "react-redux";
 
 
-const SongCard = ({ song , index }) => {
+const SongCard = ({ song , setIsPlay}) => {
+  const dispatch = useDispatch();
+  const handleOnClick = () =>{
+    dispatch(setIsPlay(true));
+    dispatch(setActiveSong(song));
+  }
+
   return (
-    <article className="flex flex-col w-[180px]   p-4 bg-[#080808] h-[270px] rounded-xl cursor-pointer hover:bg-gray-900 group">
+    <article 
+    className="flex flex-col w-[180px] p-4 bg-[#080808] h-[270px] rounded-xl cursor-pointer hover:bg-gray-900 group"
+    onClick={handleOnClick}
+    >
       <div className="">
         <div className="">
           <FaPlay className="hidden" />
