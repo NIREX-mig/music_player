@@ -1,7 +1,8 @@
 "use client";
 
+import SearchBar from "@/components/SearchBar";
 import SongCard from "@/components/SongCard";
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 import { setIsMenuOpen } from "@/redux/features/globalSlice";
 import { setIsPlay } from "@/redux/features/playerSlice";
 import { useGetSongsBySearchQuery } from "@/redux/shazam/shazam";
@@ -19,13 +20,14 @@ export default function Search() {
     dispatch(setIsMenuOpen(false));
   }, []);
 
-  if (isFetching) {
-    return <Loading />;
-  }
 
   return (
-    <div className="flex flex-col p-5 h-[89vh]">
+    <div className="flex flex-col p-3 h-[89vh]">
+      <div className="block sm:hidden pb-2 ">
+      <SearchBar/>
+      </div>
       <h3 className="text-2xl font-semibold">Search Results</h3>
+      {isFetching ? <Loading /> :
       <div className="flex flex-wrap p-3 gap-3 overflow-y-scroll">
         {data?.tracks?.hits?.map((song, index) => {
           return (
@@ -38,6 +40,7 @@ export default function Search() {
           );
         })}
       </div>
+       }
     </div>
   );
 }

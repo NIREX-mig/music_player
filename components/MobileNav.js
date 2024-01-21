@@ -23,8 +23,6 @@ const MobileNav = () => {
         <div >
           <Image alt="logo" src="/logo.png" width={120} height={120} priority />
         </div>
-
-        {pathname === "/search" && <SearchBar />}
       </nav>
       <nav>
         <GiHamburgerMenu
