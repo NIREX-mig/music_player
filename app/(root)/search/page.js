@@ -18,7 +18,7 @@ export default function Search() {
 
   useEffect(() => {
     dispatch(setIsMenuOpen(false));
-  }, []);
+  }, [dispatch]);
 
 
   return (

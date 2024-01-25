@@ -27,7 +27,7 @@ const SearchBar = () => {
 
   useEffect(() => {
     if (search) debounceSearch(search);
-  }, [search]);
+  }, [search, debounceSearch]);
 
   return (
     <div className=" flex items-centerm justify-center items-center pl-2">

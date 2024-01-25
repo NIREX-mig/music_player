@@ -32,7 +32,7 @@ const MusicPlayer = () => {
   return (
     <>
       { isMusicPlayerOpen &&
-        <section className={`${isMusicPlayerOpen && "sm:-translate-y-[100px] -translate-y-20" } flex justify-around  w-[99vw] sm:w-[79vw] 2xl:w-[80vw] h-20 rounded-tr-lg rounded-tl-lg bottom-4 backdrop-blur-md bg-black/65 p-1`}>
+        <section className={`${isMusicPlayerOpen && 'translate-y-24' } flex justify-around  w-full h-20 rounded-tr-lg rounded-tl-lg bottom-4 backdrop-blur-md bg-black/65 p-2`}>
           <Track isPlay={isPlay} activeSong={activeSong} />
           <div className="w-[30rem] xl:w-[37rem] ">
             <Controler isPlay={isPlay} handelClick={handelClick} />

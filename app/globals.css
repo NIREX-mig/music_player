@@ -79,6 +79,20 @@ body{
   }
 }
 
+.animate-slidup {
+  animation: slidup 3s linear  ;
+}
+
+@keyframes slidup {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
+
+
 #search::-webkit-search-cancel-button{
   color: white;
 

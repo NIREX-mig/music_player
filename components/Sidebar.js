@@ -33,12 +33,12 @@ const Sidebar = () => {
       </section>
 
       <section className=" bg-[#101010] h-[22%]  rounded-lg mb-2 mx-1 p-5  ">
-        <h2 className=" truncate text-sm font-mono mb-2 "> -- Devloped by NIrex -- </h2>
+        <h2 className=" truncate text-sm font-mono mb-2 "> -- Devloped by NIreX -- </h2>
         <div className="flex justify-start h-8 mt-4 ">
           <Link href="https://www.instagram.com/nirex_akay/">
             <FaInstagram className="w-7 h-7 hover:cursor-pointer hover:fill-red-600 mx-2 " />
           </Link>
-          <Link href="">
+          <Link href="https://www.instagram.com/nirex_akay/">
             <TiSocialLinkedin className="w-8 h-8 hover:cursor-pointer hover:fill-blue-700 mx-2 " />
           </Link>
           <Link href="https://github.com/NIREX-mig">
