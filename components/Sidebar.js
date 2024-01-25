@@ -11,7 +11,7 @@ const Sidebar = () => {
     <aside className="sm:flex flex-col w-[25%]  h-[98vh] rounded-lg mt-2 ml-1 hidden">
       <section className="bg-[rgb(16,16,16)] h-[35%] rounded-lg mx-1 p-2">
         <div >
-          <Image alt="logo" src="/logo.png" width={150} height={150} priority />
+          <Image alt="logo" src="/logo.png" width={100} height={100} className="w-44" />
         </div>
         <div>
         <Link href="/" className="flex p-2 hover:text-gray-300">
