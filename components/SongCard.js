@@ -33,7 +33,7 @@ const SongCard = ({ song , setIsPlay}) => {
         <h2 className="truncate text-sm text-white font-semibold">
           {song.track.title}
         </h2>
-        <p className=" text-xs text-white font-extralight py-4 ">
+        <p className="truncate text-xs text-white font-extralight py-4 ">
           {song.track.subtitle}
         </p>
       </div>
