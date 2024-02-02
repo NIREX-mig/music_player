@@ -8,7 +8,7 @@ import {
 
 const VolumeBar = ({value , handleVolumeChange}) => {
   return (
-    <div className="md:flex w-40 hidden sm:hidden justify-center items-center h-10">
+    <div className="lg:relative absolute right-1 flex lg:w-40 w-20 justify-center items-center h-10">
       {value == 0 && <FaVolumeMute className="w-5 h-5" /> }
       {value <= 0.2 && value > 0 && <FaVolumeOff className="w-5 h-5" /> }
       {value <= 0.4 && value > 0.2  && <FaVolumeDown className="w-5 h-5" /> }

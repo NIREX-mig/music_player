@@ -32,9 +32,9 @@ const MusicPlayer = () => {
   return (
     <>
       { isMusicPlayerOpen &&
-        <section className={`${isMusicPlayerOpen && " -translate-y-[80px] sm:-translate-y-[96px]" } flex justify-around  w-full h-20 rounded-tr-lg rounded-tl-lg bottom-4 backdrop-blur-md bg-black/65 p-2`}>
+        <section className={`${isMusicPlayerOpen && " -translate-y-[100px]" } duration-300 flex justify-around  w-full lg:h-20 h-36 rounded-tr-lg rounded-tl-lg bottom-4 backdrop-blur-md bg-black/65 p-2`}>
           <Track isPlay={isPlay} activeSong={activeSong} />
-          <div className="w-[30rem] xl:w-[37rem] ">
+          <div className="w-[30rem] xl:w-[37rem] flex flex-col gap-3 lg:gap-0 ">
             <Controler isPlay={isPlay} handelClick={handelClick} />
 
             <SeekBar

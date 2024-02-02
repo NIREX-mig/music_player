@@ -28,7 +28,7 @@ export default function Search() {
       </div>
       <h3 className="text-2xl font-semibold">Search Results</h3>
       {isFetching ? <Loading /> :
-      <div className="flex flex-wrap p-3 gap-3 overflow-y-scroll">
+      <div className="flex flex-wrap  p-3 gap-3 overflow-y-scroll">
         {data?.tracks?.hits?.map((song, index) => {
           return (
             <SongCard

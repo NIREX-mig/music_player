@@ -2,38 +2,22 @@
 import Image from "next/image";
 import { setSearchValue } from "@/redux/features/globalSlice";
 import { useDispatch } from "react-redux";
-import { useCallback, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import useDebounce from "@/hooks/useDebounce";
 
 const SearchBar = () => {
   const dispatch = useDispatch();
   const [search, setSearch] = useState("");
-
-  function debounce(func, delay) {
-    let timeoutId;
-    return function (...args) {
-      const context = true;
-      clearTimeout(timeoutId);
-      timeoutId = setTimeout(() => {
-        func.apply(context, args);
-      }, delay);
-    };
-  }
-
-  const makeApiCall = (search) => {
-    dispatch(setSearchValue(search));
-  };
-
-  const debounceSearch = useCallback(debounce(makeApiCall, 800), []);
+  const debounceValue = useDebounce(search,800);
 
   useEffect(() => {
-    if (search) debounceSearch(search);
-  }, [search, debounceSearch]);
+    dispatch(setSearchValue(debounceValue));
+  }, [debounceValue]);
 
   return (
     <div className=" flex items-centerm justify-center items-center pl-2">
-      {/* <div className="relative"> */}
-      <div className="">
-        <div className=" relative top-9 w-9 flex items-center ps-3">
+      <div >
+        <div className=" absolute top-7 w-9 flex items-center ps-3">
           <Image
             src="/assets/search.svg"
             width={20}
@@ -47,7 +31,7 @@ const SearchBar = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           autoComplete="off"
-          className="truncate block p-4 ps-10 text-sm text-white rounded-full bg-gray-700 focus:outline-none focus:border focus:bg-gray-800 focus:border-white hover:bg-gray-800 hover:border-white hover:border "
+          className="truncate block p-4 ps-10 text-sm text-white rounded-full bg-gray-700 outline-none focus:border focus:bg-gray-800 focus:border-white z-0 hover:bg-gray-800 hover:border-white hover:border "
           placeholder="search any things "
         />
       </div>

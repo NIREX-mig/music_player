@@ -31,7 +31,7 @@ const MobileNav = () => {
         />
       </nav>
       {isMenuOpen && (
-        <div className="fixed flex flex-col justify-between top-14  right-0 z-50 w-56 h-72 bg-black/85 rounded-lg p-6 text-white ">
+        <div className="absolute flex flex-col justify-between top-14  right-0 z-[1000000] w-56 h-72 bg-black/85 rounded-lg p-6 text-white ">
           <div>
             <Link
               href="/"
