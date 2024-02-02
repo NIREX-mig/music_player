@@ -13,7 +13,7 @@ export const shazamApi = createApi({
   }),
   endpoints: (builder) => ({
     getSongsBySearch: builder.query({
-      query: (searchTerm) => `/search?term=${searchTerm}&locale=en-US`,
+      query: (searchTerm) => `/search?term=${searchTerm}&locale=en-US&limit=20`,
     }),
   }),
 });

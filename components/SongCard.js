@@ -13,7 +13,7 @@ const SongCard = ({ song , setIsPlay}) => {
 
   return (
     <article 
-    className="flex flex-col lg:w-[180px] w-28 p-4 bg-[#080808] lg:h-[270px] rounded-xl cursor-pointer hover:bg-gray-900 group"
+    className="flex flex-col  p-4 bg-[#080808] rounded-xl cursor-pointer hover:bg-gray-900 group"
     onClick={handleOnClick}
     >
       <div className="">
