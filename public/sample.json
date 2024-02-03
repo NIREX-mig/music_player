@@ -3,26 +3,11 @@
         "hits": [
             {
                 "track": {
-                    "layout": "5",
-                    "type": "MUSIC",
-                    "key": "402749326",
-                    "title": "Nazar Lag Jayegi",
-                    "subtitle": "Millind Gaba, Kamal Raja & Music Mg",
-                    "share": {
-                        "subject": "Nazar Lag Jayegi - Millind Gaba, Kamal Raja & Music Mg",
-                        "text": "Nazar Lag Jayegi by Millind Gaba, Kamal Raja & Music Mg",
-                        "href": "https://www.shazam.com/track/402749326/nazar-lag-jayegi",
-                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/05/eb/bc/05ebbce8-e735-a6a9-0354-6b286aa80dea/8903431665287_cover.jpg/400x400cc.jpg",
-                        "twitter": "I used @Shazam to discover Nazar Lag Jayegi by Millind Gaba, Kamal Raja & Music Mg.",
-                        "html": "https://www.shazam.com/snippets/email-share/402749326?lang=en-US&country=US",
-                        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/70/4e/80/704e80d6-1984-aca7-c7a6-8936b56b2050/pr_source.png/800x800cc.jpg",
-                        "snapchat": "https://www.shazam.com/partner/sc/track/402749326"
-                    },
+                    "key": "493295830",
+                    "title": "Ishq Tera",
+                    "subtitle": "Guru Randhawa",
                     "images": {
-                        "background": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/70/4e/80/704e80d6-1984-aca7-c7a6-8936b56b2050/pr_source.png/800x800cc.jpg",
-                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/05/eb/bc/05ebbce8-e735-a6a9-0354-6b286aa80dea/8903431665287_cover.jpg/400x400cc.jpg",
-                        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/05/eb/bc/05ebbce8-e735-a6a9-0354-6b286aa80dea/8903431665287_cover.jpg/400x400cc.jpg",
-                        "joecolor": "b:030b69p:fed194s:f6844ft:cbaa8bq:c66c54"
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/a3/af/c6a3af50-25a8-4243-0f1d-c7092fe95411/8903431747181_cover.jpg/400x400cc.jpg"
                     },
                     "hub": {
                         "type": "APPLEMUSIC",
@@ -31,126 +16,324 @@
                             {
                                 "name": "apple",
                                 "type": "applemusicplay",
-                                "id": "1330621485"
+                                "id": "1479643257"
                             },
                             {
                                 "name": "apple",
                                 "type": "uri",
-                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d6/70/70/d670702d-dd48-6519-3a69-a71b0b8b840f/mzaf_15636852677214137127.plus.aac.ep.m4a"
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/02/66/7a/02667a81-86b7-5dbb-a96d-a5f3598bde17/mzaf_7786670133366166746.plus.aac.ep.m4a"
                             }
-                        ],
-                        "options": [
-                            {
-                                "caption": "OPEN",
-                                "actions": [
-                                    {
-                                        "name": "hub:applemusic:deeplink",
-                                        "type": "applemusicopen",
-                                        "uri": "https://music.apple.com/us/album/nazar-lag-jayegi/1330621263?i=1330621485&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
-                                    },
-                                    {
-                                        "name": "hub:applemusic:deeplink",
-                                        "type": "uri",
-                                        "uri": "https://music.apple.com/us/album/nazar-lag-jayegi/1330621263?i=1330621485&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
-                                    }
-                                ],
-                                "beacondata": {
-                                    "type": "open",
-                                    "providername": "applemusic"
-                                },
-                                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
-                                "type": "open",
-                                "listcaption": "Open in Apple Music",
-                                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
-                                "colouroverflowimage": false,
-                                "providername": "applemusic"
-                            },
-                            {
-                                "caption": "BUY",
-                                "actions": [
-                                    {
-                                        "type": "uri",
-                                        "uri": "https://itunes.apple.com/us/album/nazar-lag-jayegi/1330621263?i=1330621485&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
-                                    }
-                                ],
-                                "beacondata": {
-                                    "type": "buy",
-                                    "providername": "itunes"
-                                },
-                                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
-                                "type": "buy",
-                                "listcaption": "Buy on iTunes",
-                                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
-                                "colouroverflowimage": false,
-                                "providername": "itunes"
-                            }
-                        ],
-                        "providers": [
-                            {
-                                "caption": "Open in Spotify",
-                                "images": {
-                                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
-                                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
-                                },
-                                "actions": [
-                                    {
-                                        "name": "hub:spotify:searchdeeplink",
-                                        "type": "uri",
-                                        "uri": "spotify:search:Nazar%20Lag%20Jayegi%20Millind%20Gaba"
-                                    }
-                                ],
-                                "type": "SPOTIFY"
-                            },
-                            {
-                                "caption": "Open in Deezer",
-                                "images": {
-                                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
-                                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
-                                },
-                                "actions": [
-                                    {
-                                        "name": "hub:deezer:searchdeeplink",
-                                        "type": "uri",
-                                        "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Nazar+Lag+Jayegi%27%20artist%3A%27Millind+Gaba%2C+Kamal+Raja++Music+Mg%27%7D"
-                                    }
-                                ],
-                                "type": "DEEZER"
-                            }
-                        ],
-                        "explicit": false,
-                        "displayname": "APPLE MUSIC"
+                        ]
                     },
-                    "artists": [
-                        {
-                            "id": "42",
-                            "adamid": "595790785"
-                        }
-                    ],
-                    "url": "https://www.shazam.com/track/402749326/nazar-lag-jayegi"
+                    "url": "https://www.shazam.com/track/493295830/ishq-tera"
+                }
+            },
+            {
+                "track": {
+                    "key": "479718993",
+                    "title": "Lehanga",
+                    "subtitle": "Jass Manak",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d7/0c/b6/d70cb6a7-58d5-ffa7-c6a0-926016b22d16/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1654064189"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2d/47/ec/2d47ec21-ee7f-39c6-11d9-2d01da5581a4/mzaf_12278049949868860940.plus.aac.ep.m4a"
+                            }
+                        ],
+                        "url": "https://www.shazam.com/track/479718993/lehanga"
+                    }
+                }
+            },
+            {
+                "track": {
+                    "key": "419599888",
+                    "title": "Prada",
+                    "subtitle": "Jass Manak",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/03/68/2e/03682ecb-72a0-0002-6324-d32d1adc0f81/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1454095412"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/66/14/78/66147847-9031-162f-c8c7-6fa56f48c0fd/mzaf_15472635289521332808.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/419599888/prada"
+                }
+            },
+            {
+                "track": {
+                    "key": "459525014",
+                    "title": "Chehra Tera",
+                    "subtitle": "Jass Manak",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/16/76/04167622-d6fe-01a0-c9d5-c80805c6c441/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1453506699"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a2/6c/bc/a26cbcdf-472b-39d6-e1ab-93604b109f31/mzaf_10632812159900206033.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/459525014/chehra-tera"
+                }
+            },
+            {
+                "track": {
+                    "key": "459525006",
+                    "title": "Viah",
+                    "subtitle": "Jass Manak",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/16/76/04167622-d6fe-01a0-c9d5-c80805c6c441/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1453506695"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/e1/a1/97/e1a1970f-28ce-7ec2-cf38-f7147b461fa5/mzaf_1880066888285338665.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/459525006/viah"
+                }
+            },
+            {
+                "track": {
+                    "key": "459525011",
+                    "title": "Kali Range",
+                    "subtitle": "Jass Manak",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/16/76/04167622-d6fe-01a0-c9d5-c80805c6c441/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1453506713"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/70/f5/f3/70f5f3dc-2648-e365-eb0d-8d553c949f00/mzaf_10166880579654078790.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/459525011/kali-range"
+                }
+            },
+            {
+                "track": {
+                    "key": "644880796",
+                    "title": "3 Saal",
+                    "subtitle": "Bilal Saeed",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/39/df/72/39df722b-d725-2653-4657-8df0f97bcca3/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1658300242"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/fe/4b/9c/fe4b9c59-f6eb-90c6-14ff-aa809fdda797/mzaf_8413302509231791118.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/644880796/3-saal"
+                }
+            },
+            {
+                "track": {
+                    "key": "338108223",
+                    "title": "3 Peg (From \"3 Peg\")",
+                    "subtitle": "Sharry Maan",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d3/d8/29/d3d8291f-1dba-d708-78db-952a350237f2/8903431883018_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1630897751"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c8/dc/16/c8dc16f7-eb66-551d-a14b-42910ce1fa75/mzaf_3997033562843952658.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/338108223/3-peg-from-3-peg"
+                }
+            },
+            {
+                "track": {
+                    "key": "295340170",
+                    "title": "22Da",
+                    "subtitle": "Zora Randhawa",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9d/1c/b19d1cac-13a6-d2fe-b3c8-68e35abec536/8902633266353.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1419840838"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/20/be/12/20be1213-ceef-1763-c761-b80b673e24c4/mzaf_6024963861584459483.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/295340170/22da"
+                }
+            },
+            {
+                "track": {
+                    "key": "559079253",
+                    "title": "Taare",
+                    "subtitle": "A Kay",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/c4/0f/75c40f51-ab7f-02ed-afc3-c6c0a2334581/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1554845177"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/07/5e/29075e7b-2b58-f25d-5a50-426506dc9250/mzaf_7630286112610540066.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/559079253/taare"
+                }
+            },
+            {
+                "track": {
+                    "key": "336263175",
+                    "title": "Aise Na Dekh",
+                    "subtitle": "Millind Gaba",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music22/v4/2d/1f/b3/2d1fb38f-6d74-9c41-abab-365eaeb77974/8903431630629_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1179982774"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a6/a2/a4/a6a2a4c1-27c6-8c98-7ee5-121d8dba6211/mzaf_18439013076684895085.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/336263175/aise-na-dekh"
+                }
+            },
+            {
+                "track": {
+                    "key": "152663259",
+                    "title": "Laden",
+                    "subtitle": "Jassie Gill",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/de/0b/57de0b6a-a2b3-d68b-f421-1e73dec8500b/8902633272743.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1432591252"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/66/1c/32661c8e-9874-faf4-b481-e5db05da91c8/mzaf_11090979519557163791.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/152663259/laden"
                 }
             },
             {
                 "track": {
                     "layout": "5",
                     "type": "MUSIC",
-                    "key": "653783018",
-                    "title": "Nazar Lag Jayegi (From \"Bholaa\")",
-                    "subtitle": "Javed Ali & Irshad Kamil",
-                    "share": {
-                        "subject": "Nazar Lag Jayegi (From \"Bholaa\") - Javed Ali & Irshad Kamil",
-                        "text": "Nazar Lag Jayegi (From \"Bholaa\") by Javed Ali & Irshad Kamil",
-                        "href": "https://www.shazam.com/track/653783018/nazar-lag-jayegi-from-bholaa",
-                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ca/ab/fe/caabfe7c-c92d-e4a1-85c2-1d932e9963b5/8903431928047_cover.jpg/400x400cc.jpg",
-                        "twitter": "I used @Shazam to discover Nazar Lag Jayegi (From \"Bholaa\") by Javed Ali & Irshad Kamil.",
-                        "html": "https://www.shazam.com/snippets/email-share/653783018?lang=en-US&country=US",
-                        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bc/43/e3/bc43e387-1930-0d3c-1d0a-7e31140df79a/pr_source.png/800x800cc.jpg",
-                        "snapchat": "https://www.shazam.com/partner/sc/track/653783018"
-                    },
+                    "key": "147754343",
+                    "title": "Bapu",
+                    "subtitle": "Amrinder Gill",
                     "images": {
-                        "background": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bc/43/e3/bc43e387-1930-0d3c-1d0a-7e31140df79a/pr_source.png/800x800cc.jpg",
-                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ca/ab/fe/caabfe7c-c92d-e4a1-85c2-1d932e9963b5/8903431928047_cover.jpg/400x400cc.jpg",
-                        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ca/ab/fe/caabfe7c-c92d-e4a1-85c2-1d932e9963b5/8903431928047_cover.jpg/400x400cc.jpg",
-                        "joecolor": "b:9f4103p:fffefas:ffeed1t:ebd8c8q:ebcba7"
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/9b/af/ef9baff7-f5dc-bac0-d80d-b0ff907f3c3e/859713128651_cover.tif/400x400cc.jpg"
                     },
                     "hub": {
                         "type": "APPLEMUSIC",
@@ -159,151 +342,583 @@
                             {
                                 "name": "apple",
                                 "type": "applemusicplay",
-                                "id": "1672763851"
+                                "id": "910214262"
                             },
                             {
                                 "name": "apple",
                                 "type": "uri",
-                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/70/49/b0/7049b05f-df83-8a44-c9ac-60e28e2038ab/mzaf_3936144942844820824.plus.aac.ep.m4a"
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/62/fc/ea62fc5a-a967-35f4-c345-cc72baf0181e/mzaf_18198056056313905445.plus.aac.ep.m4a"
                             }
-                        ],
-                        "options": [
-                            {
-                                "caption": "OPEN",
-                                "actions": [
-                                    {
-                                        "name": "hub:applemusic:deeplink",
-                                        "type": "applemusicopen",
-                                        "uri": "https://music.apple.com/us/album/nazar-lag-jayegi-from-bholaa/1672763850?i=1672763851&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
-                                    },
-                                    {
-                                        "name": "hub:applemusic:deeplink",
-                                        "type": "uri",
-                                        "uri": "https://music.apple.com/us/album/nazar-lag-jayegi-from-bholaa/1672763850?i=1672763851&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
-                                    }
-                                ],
-                                "beacondata": {
-                                    "type": "open",
-                                    "providername": "applemusic"
-                                },
-                                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
-                                "type": "open",
-                                "listcaption": "Open in Apple Music",
-                                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
-                                "colouroverflowimage": false,
-                                "providername": "applemusic"
-                            },
-                            {
-                                "caption": "BUY",
-                                "actions": [
-                                    {
-                                        "type": "uri",
-                                        "uri": "https://itunes.apple.com/us/album/nazar-lag-jayegi-from-bholaa/1672763850?i=1672763851&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
-                                    }
-                                ],
-                                "beacondata": {
-                                    "type": "buy",
-                                    "providername": "itunes"
-                                },
-                                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
-                                "type": "buy",
-                                "listcaption": "Buy on iTunes",
-                                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
-                                "colouroverflowimage": false,
-                                "providername": "itunes"
-                            }
-                        ],
-                        "providers": [
-                            {
-                                "caption": "Open in Spotify",
-                                "images": {
-                                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
-                                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
-                                },
-                                "actions": [
-                                    {
-                                        "name": "hub:spotify:searchdeeplink",
-                                        "type": "uri",
-                                        "uri": "spotify:search:Nazar%20Lag%20Jayegi%20%28From%20%22Bholaa%22%29%20Javed%20Ali"
-                                    }
-                                ],
-                                "type": "SPOTIFY"
-                            },
-                            {
-                                "caption": "Open in Deezer",
-                                "images": {
-                                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
-                                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
-                                },
-                                "actions": [
-                                    {
-                                        "name": "hub:deezer:searchdeeplink",
-                                        "type": "uri",
-                                        "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Nazar+Lag+Jayegi+%28From+%22Bholaa%22%29%27%20artist%3A%27Javed+Ali++Irshad+Kamil%27%7D"
-                                    }
-                                ],
-                                "type": "DEEZER"
-                            }
-                        ],
-                        "explicit": false,
-                        "displayname": "APPLE MUSIC"
+                        ]
                     },
-                    "artists": [
-                        {
-                            "id": "42",
-                            "adamid": "129421114"
-                        }
-                    ],
-                    "url": "https://www.shazam.com/track/653783018/nazar-lag-jayegi-from-bholaa"
-                }
-            }
-        ]
-    },
-    "artists": {
-        "hits": [
-            {
-                "artist": {
-                    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bc/43/e3/bc43e387-1930-0d3c-1d0a-7e31140df79a/pr_source.png/800x800bb.jpg",
-                    "name": "Javed Ali",
-                    "verified": false,
-                    "weburl": "https://music.apple.com/us/artist/javed-ali/129421114",
-                    "adamid": "129421114"
+                    "url": "https://www.shazam.com/track/147754343/bapu"
                 }
             },
             {
-                "artist": {
-                    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/70/4e/80/704e80d6-1984-aca7-c7a6-8936b56b2050/pr_source.png/800x800bb.jpg",
-                    "name": "Millind Gaba",
-                    "verified": false,
-                    "weburl": "https://music.apple.com/us/artist/millind-gaba/595790785",
-                    "adamid": "595790785"
+                "track": {
+                    "key": "340861356",
+                    "title": "Nakhre",
+                    "subtitle": "Jassie Gill",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c4/06/19/c406194e-7a38-0830-9300-682a4e710c7e/8902633270077.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1432591036"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/b4/2c/bfb42c12-d4e8-c122-beb8-23f4eede549a/mzaf_9606762396014746065.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/340861356/nakhre"
                 }
             },
             {
-                "artist": {
-                    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3b/0f/55/3b0f55f8-044b-e03b-471b-957fd213bafd/8902894358705_cover.jpg/800x800ac.jpg",
-                    "name": "Music Mg",
-                    "verified": false,
-                    "weburl": "https://music.apple.com/us/artist/music-mg/1027395429",
-                    "adamid": "1027395429"
+                "track": {
+                    "key": "334399095",
+                    "title": "Yaar Jatt De",
+                    "subtitle": "Jassie Gill",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f5/c2/ea/f5c2ea06-cf99-612c-4f5d-f07f24021bce/8902633274594.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1420160718"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/70/65/8c/70658c82-c240-62b3-6378-4299866fab92/mzaf_7758689583677985489.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/334399095/yaar-jatt-de"
                 }
             },
             {
-                "artist": {
-                    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/41/3e/50/413e50d0-6df4-afa9-0adb-70b37d56eeed/pr_source.png/800x800bb.jpg",
-                    "name": "Kamal Raja",
-                    "verified": false,
-                    "weburl": "https://music.apple.com/us/artist/kamal-raja/437049962",
-                    "adamid": "437049962"
+                "track": {
+                    "key": "308304099",
+                    "title": "Attt Karti",
+                    "subtitle": "Jassie Gill",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/90/8a/b7/908ab78c-1d90-2c2a-e9d0-5ae07c841e5d/8902633266889.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1418050935"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/11/c8/6d/11c86dd2-d6a7-929d-d0b5-9290d9555350/mzaf_5092490701806089540.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/308304099/attt-karti"
                 }
             },
             {
-                "artist": {
-                    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/26/62/1d26622b-2201-d7f3-1a34-1e4384887fd9/cover.jpg/800x800ac.jpg",
-                    "name": "Prem Ravi Sagar",
-                    "verified": false,
-                    "weburl": "https://music.apple.com/us/artist/prem-ravi-sagar/1456546568",
-                    "adamid": "1456546568"
+                "track": {
+                    "key": "407387676",
+                    "title": "Akh Lagdi",
+                    "subtitle": "Akhil",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/47/2b/e9/472be933-370a-47d2-b7f0-73a83c43d3f0/8902633281073.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1427066060"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/df/91/1edf919c-580c-2e5d-750f-212135d23567/mzaf_12842516448267853987.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/407387676/akh-lagdi"
+                }
+            },
+            {
+                "track": {
+                    "key": "308572693",
+                    "title": "Khaab",
+                    "subtitle": "Akhil",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/c8/98/28c8987b-9a29-e638-6151-6b2c11c006ba/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1187826732"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c2/7a/10/c27a10d6-4e58-4439-1b53-0b3e3b585f30/mzaf_6586413813116091908.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/308572693/khaab"
+                }
+            },
+            {
+                "track": {
+                    "key": "320786599",
+                    "title": "Gani (feat. Akhil)",
+                    "subtitle": "Manni Sandhu",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/1f/97/c61f9787-ef3a-d7ea-d2a1-00710f3de8b8/Welcome-To-The-Future_1600-resize-1450x1450-5746c15f0a238-large.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1118431038"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/7c/f1/9b7cf18e-c7ff-fc37-03ae-6cab6d91fb07/mzaf_1360913450554259408.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/320786599/gani-feat-akhil"
+                }
+            },
+            {
+                "track": {
+                    "key": "328886937",
+                    "title": "Teri Kami",
+                    "subtitle": "Akhil",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/36/3e/ae/363eae73-e171-197a-cc61-12f024942bdc/8902633273795.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1418050053"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/18/06/301806e3-a203-d6c2-2a31-96462a512fe4/mzaf_6365517655166407561.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/328886937/teri-kami"
+                }
+            },
+            {
+                "track": {
+                    "key": "267713187",
+                    "title": "Supne",
+                    "subtitle": "Akhil",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/00/e2/0a/00e20a6c-0870-05d7-e062-cddb5ecc2b46/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1475490206"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/45/d8/97/45d8973d-4e65-d33b-d4ac-0441c68e410e/mzaf_2939260922420555806.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/267713187/supne"
+                }
+            },
+            {
+                "track": {
+                    "key": "375619376",
+                    "title": "Badnam",
+                    "subtitle": "Mankirt Aulakh",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/8c/88/c08c8883-cf87-1ee0-e73b-316e5edd684a/8902633291140.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1449285448"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/77/5a/af/775aafbb-f75f-731d-7375-69f41b347ad4/mzaf_1201352143555573920.plus.aac.p.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/375619376/badnam"
+                }
+            },
+            {
+                "track": {
+                    "key": "151223080",
+                    "title": "Desi Kalakaar",
+                    "subtitle": "Yo Yo Honey Singh",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b3/b5/d9/b3b5d986-7f6d-a860-b8aa-769e1eef1a92/8902894356299_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1158008527"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/ca/70/41ca70be-2f8b-a239-4b5a-38b0432384c2/mzaf_5929928260724134975.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/151223080/desi-kalakaar"
+                }
+            },
+            {
+                "track": {
+                    "key": "67281525",
+                    "title": "Brown Rang",
+                    "subtitle": "Yo Yo Honey Singh",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/f8/07/f9f8072c-28a5-6495-10cd-82d8ba25378c/5063332570448_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1717457569"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/79/32/bb/7932bb33-2c49-09d5-5519-8a56b372e7a6/mzaf_2778815659825439485.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/67281525/brown-rang"
+                }
+            },
+            {
+                "track": {
+                    "key": "67762731",
+                    "title": "Angreji Beat",
+                    "subtitle": "Yo Yo Honey Singh & Gippy Grewal",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/0c/33/ca0c338b-414d-6beb-9054-42c3f7c58690/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1564927136"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ce/27/dd/ce27dd8c-2598-dcc4-b54f-d9e40af1c70b/mzaf_7228539031056724907.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/67762731/angreji-beat"
+                }
+            },
+            {
+                "track": {
+                    "key": "101584721",
+                    "title": "Blue Eyes",
+                    "subtitle": "Yo Yo Honey Singh",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/81/0b/a4/810ba47e-952c-8818-ad3c-9899b4928cd4/8902894354943_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1167342870"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1a/44/fb/1a44fbe0-5172-ddad-8e53-5510ad7dcff9/mzaf_12799222031824512432.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/101584721/blue-eyes"
+                }
+            },
+            {
+                "track": {
+                    "key": "108085842",
+                    "title": "Chaar Botal Vodka",
+                    "subtitle": "Yo Yo Honey Singh",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b3/99/d6/b399d6ae-1fc0-c897-2595-317a7c835de9/8902894355520_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1111592068"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/cd/d3/1bcdd348-f0c7-b94d-37b7-6e0945cd6c1d/mzaf_13812674401857245541.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/108085842/chaar-botal-vodka"
+                }
+            },
+            {
+                "track": {
+                    "key": "290948727",
+                    "title": "Date on Ford",
+                    "subtitle": "Miss Pooja",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/f3/11/8c/f3118cd7-7265-38b0-d7a5-6822246e527c/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1047122620"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/80/8d/16/808d167a-36be-c7b3-ea04-d6736c985936/mzaf_8074457372262284397.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/290948727/date-on-ford"
+                }
+            },
+            {
+                "track": {
+                    "key": "546093181",
+                    "title": "Sohnea (Ali Merchant X Joel Remix)",
+                    "subtitle": "Miss Pooja & Millind Gaba",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/61/bb/8c61bb9d-68d4-9fe1-5fd4-0ba8cc2a9214/8902633314443.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1541054150"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/84/14/e08414d9-eb9c-5dfa-9876-a9aa43b84a0f/mzaf_17117106703302052720.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/546093181/sohnea-ali-merchant-x-joel-remix"
+                }
+            },
+            {
+                "track": {
+                    "key": "383793625",
+                    "title": "Cute Munda",
+                    "subtitle": "Sharry Maan",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/35/4b/e6354b42-e4ef-7bfa-a28e-4d4fd664e4f2/4823112075348.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1640306556"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/42/61/43/42614328-aa28-fcc1-2c6e-fde7ba9851a2/mzaf_3110474177678613431.plus.aac.ep.m4a"
+                            }
+                        ]
+                    }
+                },
+                "url": "https://www.shazam.com/track/383793625/cute-munda"
+            },
+            {
+                "track": {
+                    "key": "338231992",
+                    "title": "Daru Badnaam (with Pratik Studio)",
+                    "subtitle": "Param Singh & Kamal Kahlon",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/7e/fa/e87efa6f-3d57-fb0f-55a1-aa42067ab0fb/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1188773663"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/eb/d3/eeebd3c7-8b2d-4ea0-a4a1-52f60be41991/mzaf_13368737143700111918.plus.aac.ep.m4a"
+                            }
+                        ]
+                    }
+                },
+                "url": "https://www.shazam.com/track/338231992/daru-badnaam-with-pratik-studio"
+            },
+            {
+                "track": {
+                    "key": "67762731",
+                    "title": "Angreji Beat",
+                    "subtitle": "Yo Yo Honey Singh & Gippy Grewal",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/0c/33/ca0c338b-414d-6beb-9054-42c3f7c58690/cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1564927136"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ce/27/dd/ce27dd8c-2598-dcc4-b54f-d9e40af1c70b/mzaf_7228539031056724907.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/67762731/angreji-beat"
+                }
+            },
+            {
+                "track": {
+                    "key": "278188643",
+                    "title": "Family Di Member",
+                    "subtitle": "Amrinder Gill",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/14/e1/f6/14e1f674-234f-4c21-2754-97bd9d8fbb54/angrej_amrinder_gill.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1021744292"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/52/70/29527053-28ae-fa2f-486a-ab4545a34c0d/mzaf_13553786613566107652.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/278188643/family-di-member"
+                }
+            },
+            {
+                "track": {
+                    "key": "546616090",
+                    "title": "First Kiss",
+                    "subtitle": "Yo Yo Honey Singh & Ipsitaa",
+                    "images": {
+                        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/ec/b9/e6ecb9e8-9c20-1058-995b-bec1ea656db5/8903431794802_cover.jpg/400x400cc.jpg"
+                    },
+                    "hub": {
+                        "type": "APPLEMUSIC",
+                        "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+                        "actions": [
+                            {
+                                "name": "apple",
+                                "type": "applemusicplay",
+                                "id": "1541617860"
+                            },
+                            {
+                                "name": "apple",
+                                "type": "uri",
+                                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/74/59/a8/7459a859-b273-b0be-7176-32027d7fa9f1/mzaf_7066485005760977650.plus.aac.ep.m4a"
+                            }
+                        ]
+                    },
+                    "url": "https://www.shazam.com/track/546616090/first-kiss"
                 }
             }
         ]
