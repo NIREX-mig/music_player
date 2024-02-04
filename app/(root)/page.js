@@ -25,9 +25,9 @@ export default function Home() {
 
   return (
     <section className=" h-[89vh] overflow-y-scroll  ">
-      <div className="p-5">
+      <div className="p-3">
         <h4 className="font-bold text-2xl">Punjabi Old Songs </h4>
-        <div className="lg:grid-cols-5 grid-cols-3 grid justify-center p-5 gap-3 ">
+        <div className="lg:grid-cols-5 md:grid-cols-3 grid-cols-2 grid justify-center p-1 lg:gap-3 gap-2 ">
           {data?.tracks.hits?.map((song, index) => {
             return <SongCard key={index} setIsPlay={setIsPlay} song={song} index={index} />;
           })}
