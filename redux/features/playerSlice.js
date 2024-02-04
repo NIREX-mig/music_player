@@ -29,10 +29,14 @@ export const playerSlice = createSlice({
       state.currentIndex = action.payload;
     },
     nextSong : (state) =>{
-        state.activeSong = state.currentSong[state.currentIndex++]
+      if(state.currentIndex < state.currentSong.length ){
+        state.activeSong = state.currentSong[state.currentIndex+=1];
+      }
     },
     previousSong : (state) =>{
-        state.activeSong = state.currentSong[state.currentIndex--]
+      if(state.currentIndex > 0 ){
+        state.activeSong = state.currentSong[state.currentIndex-=1];
+      }
     }
   },
 });
