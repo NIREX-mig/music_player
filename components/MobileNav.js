@@ -4,18 +4,15 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { FaInstagram } from "react-icons/fa";
 import { TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
 import { AiFillHome } from "react-icons/ai";
 import { IoSearch } from "react-icons/io5";
-import SearchBar from "./SearchBar";
 
 
 const MobileNav = () => {
   const dispatch = useDispatch();
   const { isMenuOpen } = useSelector((state) => state.global);
-  const pathname = usePathname();
 
   return (
     <header className="xl:hidden  lg:hidden md:hidden sm:hidden flex justify-between items-center p-3 w-full rounded-lg sticky top-0 backdrop-blur-lg bg-white/15 h-14">

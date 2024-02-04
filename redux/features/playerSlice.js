@@ -8,7 +8,6 @@ const initialState = {
   activeSong : {},
   currentSong : [],
   currentIndex : 0,
-  
 };
 
 export const playerSlice = createSlice({
@@ -21,20 +20,23 @@ export const playerSlice = createSlice({
     },
     setCurrentSong : (state, action ) =>{
       state.currentSong = action.payload;
+
     },
     setActiveSong : (state, action ) =>{
       state.activeSong = action.payload;
     },
-    nextSong : () =>{
-
+    setcurrentIndex : (state, action ) =>{
+      state.currentIndex = action.payload;
     },
-    
-    previousSong : () =>{
-
+    nextSong : (state) =>{
+        state.activeSong = state.currentSong[state.currentIndex++]
+    },
+    previousSong : (state) =>{
+        state.activeSong = state.currentSong[state.currentIndex--]
     }
   },
 });
 
-export const { setIsPlay,setCurrentSong,setActiveSong, nextSong, previousSong } = playerSlice.actions
+export const { setIsPlay,setCurrentSong , setcurrentIndex,setActiveSong, nextSong, previousSong } = playerSlice.actions
 
 export default playerSlice.reducer;

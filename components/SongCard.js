@@ -1,14 +1,21 @@
-import { setActiveSong } from "@/redux/features/playerSlice";
+'use client'; 
+
+import { setActiveSong, setCurrentSong, setcurrentIndex } from "@/redux/features/playerSlice";
 import Image from "next/image";
 import { FaPause, FaPlay } from "react-icons/fa";
-import { useDispatch } from "react-redux";
+import { useDispatch} from "react-redux";
 
 
-const SongCard = ({ song , setIsPlay}) => {
+const SongCard = ({ song , setIsPlay, index, songs}) => {
+
   const dispatch = useDispatch();
+
+
   const handleOnClick = () =>{
     dispatch(setIsPlay(true));
     dispatch(setActiveSong(song));
+    dispatch(setCurrentSong(songs));
+    dispatch(setcurrentIndex(index));
   }
 
   return (
