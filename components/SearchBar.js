@@ -16,8 +16,8 @@ const SearchBar = () => {
 
   return (
     <div className=" flex items-centerm justify-center items-center pl-2">
-      <div >
-        <div className=" absolute top-7 w-9 flex items-center ps-3">
+      <div className="flex justify-center items-center hover:bg-gray-700 hover:border-white hover:border  rounded-full bg-gray-700 ">
+        <div className=" w-9 flex items-center ps-3">
           <Image
             src="/assets/search.svg"
             width={20}
@@ -31,7 +31,7 @@ const SearchBar = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           autoComplete="off"
-          className="truncate block p-4 ps-10 text-sm text-white rounded-full bg-gray-700 outline-none focus:border focus:bg-gray-800 focus:border-white z-0 hover:bg-gray-800 hover:border-white hover:border "
+          className="truncate block py-4 pr-4 text-sm text-white rounded-full bg-gray-700 outline-none z-0 "
           placeholder="search any things "
         />
       </div>
