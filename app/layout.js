@@ -6,7 +6,7 @@ import { Providers } from "@/redux/provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "spotify-clone",
+  title: "Nixmusic - Web Music Player",
   description: "spotify clone using next js",
   icons: {
     icon: "./favicon.ico",
