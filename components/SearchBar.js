@@ -15,7 +15,7 @@ const SearchBar = () => {
   }, [debounceValue]);
 
   return (
-    <div className=" flex items-centerm justify-center items-center pl-2">
+    <div className=" flex items-centerm justify-center items-center pl-2 z-10">
       <div className="flex justify-center items-center hover:bg-gray-700 hover:border-white hover:border  rounded-full bg-gray-700 ">
         <div className=" w-9 flex items-center ps-3">
           <Image
@@ -31,7 +31,7 @@ const SearchBar = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           autoComplete="off"
-          className="truncate block py-4 pr-4 text-sm text-white rounded-full bg-gray-700 outline-none z-0 "
+          className="truncate block py-4 pr-4 text-sm text-white rounded-full bg-gray-700 outline-none "
           placeholder="search any things "
         />
       </div>

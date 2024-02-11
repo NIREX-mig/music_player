@@ -15,7 +15,7 @@ const MobileNav = () => {
   const { isMenuOpen } = useSelector((state) => state.global);
 
   return (
-    <header className="xl:hidden  lg:hidden md:hidden sm:hidden flex justify-between items-center p-3 w-full rounded-lg sticky top-0 backdrop-blur-lg bg-white/15 h-14">
+    <header className=" xl:hidden  lg:hidden md:hidden sm:hidden flex justify-between items-center p-3 w-full rounded-lg sticky top-0 backdrop-blur-lg bg-white/15 h-14">
       <nav className="flex items-center">
         <div >
           <Image alt="logo" src="/logo.png" width={120} height={120} priority />
@@ -28,7 +28,7 @@ const MobileNav = () => {
         />
       </nav>
       {isMenuOpen && (
-        <div className="absolute flex flex-col justify-between top-14  right-0 z-[1000000] w-56 h-72 bg-black/85 rounded-lg p-6 text-white ">
+        <div className=" absolute flex flex-col justify-between top-14  right-0 z-[1000000] w-56 h-72 bg-black/85 rounded-lg p-6 text-white ">
           <div>
             <Link
               href="/"
